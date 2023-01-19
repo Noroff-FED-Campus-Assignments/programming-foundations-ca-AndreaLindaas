@@ -19,20 +19,23 @@ npm run dev
 
 This object has the following properties:
 
-door (number), the number of entrance doors.
-windows (number), number of windows in the house.
-floors(number), number of floors.
-houseSizeInSqm (number), house size in square meters.
-color(string), color of the house.
-hasSolarPanels(boolean), house has solar panels.
-rooms (array of objects) the different type of rooms in the house. object contains roomType (string), name(string) and color(string).
-garage (object) containing:
-type(string)type of garage.
-numberOfCars(number)
-isOpen(boolean)
-openCloseGarage(function)
+- _door_ (number), the number of entrance doors.  
+- _windows_ (number), number of windows in the house.  
+- _floors_ (number), number of floors.  
+- _houseSizeInSqm_ (number), house size in square meters.  
+- _color_(string), color of the house.  
+- _hasSolarPanels_(boolean), house has solar panels.  
+- _rooms_ (array of objects) the different type of rooms in the house.    
+  - _roomType_ (string) 
+  - _name_(string) 
+  - _color_(string)  
+- _garage_ (object) containing:
+  - _type_(string)type of garage
+  - _numberOfCars_(number)
+  - _isOpen_(boolean)
+  - _openCloseGarage_(function)
 
-run project to test toggle function in browser.
+**Run project to test toggle function in browser.**
 
 
 ## Minimum acceptance Criteria
