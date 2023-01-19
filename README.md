@@ -13,11 +13,27 @@ npm install
 npm run dev
 ```
 
-## _REPLACE_ Object
+## House Object
 
-// Use this file to write your report.
+
 
 This object has the following properties:
+
+door (number), the number of entrance doors.
+windows (number), number of windows in the house.
+floors(number), number of floors.
+houseSizeInSqm (number), house size in square meters.
+color(string), color of the house.
+hasSolarPanels(boolean), house has solar panels.
+rooms (array of objects) the different type of rooms in the house. object contains roomType (string), name(string) and color(string).
+garage (object) containing:
+type(string)type of garage.
+numberOfCars(number)
+isOpen(boolean)
+openCloseGarage(function)
+
+run project to test toggle function in browser.
+
 
 ## Minimum acceptance Criteria
 

@@ -10,12 +10,19 @@
   </head>
   <body>
     <button onclick="toggleGarage()">Toggle garage</button>
+    
+    <div class="garage-status">
+      Garage is: <span class="status">closed</span>
+    </div>
+    
     <script>
-     function toggleGarage(){
-
-      console.log("was: " + house.garage.isOpen);
-      house.garage.openCloseGarage();
-      console.log("now: " + house.garage.isOpen);
+     function toggleGarage(){     
+        house.garage.openCloseGarage();
+        if (house.garage.isOpen){
+          document.querySelector(".garage-status .status").innerHTML = "open";
+        }else{
+          document.querySelector(".garage-status .status").innerHTML = "closed";
+        }       
      }
     </script>
   </body>
